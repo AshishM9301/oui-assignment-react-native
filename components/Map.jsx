@@ -21,7 +21,7 @@ const Map = () => {
         }}
         provider="google"
       >
-        <Marker
+        {/* <Marker
           coordinate={pin}
           pinColor="#00c8d7"
           // draggable={true}
@@ -39,7 +39,7 @@ const Map = () => {
           <Callout>
             <Text>I'm here</Text>
           </Callout>
-        </Marker>
+        </Marker> */}
       </MapView>
     </View>
   );
