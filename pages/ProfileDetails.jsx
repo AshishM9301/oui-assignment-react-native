@@ -42,7 +42,11 @@ const ProfileDetails = () => {
           </View>
 
           <View style={styles.inputContainer}>
-            <TextInput onChange={setName} value={Number} style={styles.input} />
+            <TextInput
+              onChange={setNumber}
+              value={Number}
+              style={styles.input}
+            />
             <Image
               source={require("../assets/images/pen-icon.png")}
               style={styles.iconStyle}
@@ -61,7 +65,7 @@ const ProfileDetails = () => {
             <TextInput
               multiline
               numberOfLines={4}
-              onChange={setName}
+              onChange={setAddress}
               value={Address}
               style={styles.addressInput}
               maxLength={40}

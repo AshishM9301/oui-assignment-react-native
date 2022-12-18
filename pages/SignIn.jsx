@@ -14,6 +14,7 @@ import RenderButton from "../components/RenderButton";
 
 const SignIn = () => {
   const [Email, setEmail] = useState("youremail@website.com");
+  const [Password, setPassword] = useState("password");
   const [toggleCheckBox, setToggleCheckBox] = useState(false);
   return (
     <ScrollView style={styles.container}>
@@ -45,8 +46,8 @@ const SignIn = () => {
             style={styles.iconStyle}
           />
           <TextInput
-            onChange={setEmail}
-            value={Email}
+            onChange={setPassword}
+            value={Password}
             style={styles.input}
             secureTextEntry={true}
           />
