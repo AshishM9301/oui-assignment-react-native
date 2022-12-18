@@ -24,10 +24,32 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.learinginashish.Ouiassignment"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "build": {
+      "preview": {
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "preview2": {
+        "android": {
+          "gradleCommand": ":app:assembleRelease"
+        }
+      },
+      "preview3": {
+        "developmentClient": true
+      },
+      "production": {}
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5654e1f2-4114-44cb-8c46-f7c137681fc4"
+      }
     }
   }
 }

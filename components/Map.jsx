@@ -6,14 +6,12 @@ const Map = () => {
   const [pin, setPin] = useState({ longitude: -96.49, latitude: 41.44 });
 
   return (
-    <View>
+    <View style={{ width: "100%" }}>
       <MapView
         style={{
+          height: 300,
           width: "100%",
-          height: 450,
-          position: "absolute",
           zIndex: 0,
-          bottom: 0,
         }}
         initialRegion={{
           longitude: -96.49,
