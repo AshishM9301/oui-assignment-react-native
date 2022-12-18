@@ -113,7 +113,6 @@ const DoctorDetails = () => {
       </View> */}
 
       <View style={styles.bottomData}>
-        <Map />
         <View
           style={{
             backgroundColor: "#fff",
