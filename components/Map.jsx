@@ -24,17 +24,17 @@ const Map = () => {
         <Marker
           coordinate={pin}
           pinColor="#00c8d7"
-          draggable={true}
-          onDragStart={(e) => {
-            console.log("Drag Start", e.nativeEvent.coordinate);
-          }}
-          onDragEnd={(e) => {
-            console.log("Drag Start", e.nativeEvent.coordinate);
-            setPin({
-              latitude: e.nativeEvent.coordinate.latitude,
-              longitude: e.nativeEvent.coordinate.longitude,
-            });
-          }}
+          // draggable={true}
+          // onDragStart={(e) => {
+          //   console.log("Drag Start", e.nativeEvent.coordinate);
+          // }}
+          // onDragEnd={(e) => {
+          //   console.log("Drag Start", e.nativeEvent.coordinate);
+          //   setPin({
+          //     latitude: e.nativeEvent.coordinate.latitude,
+          //     longitude: e.nativeEvent.coordinate.longitude,
+          //   });
+          // }}
         >
           <Callout>
             <Text>I'm here</Text>
